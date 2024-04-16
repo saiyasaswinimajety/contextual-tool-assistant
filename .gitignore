@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Databases & local state
+*.db
+*.sqlite
+*.sqlite3
+session_state/
+
+# Java / Maven
+java-service/target/
+java-service/.classpath
+java-service/.project
+java-service/.settings/
+java-service/*.iml
+java-service/.idea/
+
+# Environment & IDE
+.env
+.DS_Store
+Thumbs.db
