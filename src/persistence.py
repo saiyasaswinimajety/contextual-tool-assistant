@@ -155,3 +155,4 @@ class StatePersistenceManager:
             cursor.execute("SELECT session_id, created_at, updated_at, total_tool_calls FROM sessions ORDER BY updated_at DESC")
             return [dict(row) for row in cursor.fetchall()]
 
+
