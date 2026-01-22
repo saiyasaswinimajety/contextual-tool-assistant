@@ -200,3 +200,4 @@ class ContextualAgent:
         except Exception:
             # Fallback to local orchestrator if API call fails
             return self._execute_with_local_orchestrator(session_id, prompt)
+
